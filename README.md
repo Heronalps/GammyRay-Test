@@ -5,7 +5,7 @@ __UploadObjectToS3__: It creates an object that emits an event notification.
 
 __S3EventProcessor__: The notification triggers this lambda that is traced by X-Ray.
 
-####Building Step of Test in Java SDK:
+#### Building Step of Test in Java SDK:
 
 1. Add dependencies of AWS Lambda Java SDK in build.gradle:  
 - aws-java-sdk-core
@@ -35,7 +35,7 @@ __Settings:__
 
 6. Test UploadObjectToS3 Lambda function with a configured test event of a selected string.
 
-####Outcome:
+#### Outcome:
 
 1. UploadObjectToS3 gives information of successful uploading.
 
